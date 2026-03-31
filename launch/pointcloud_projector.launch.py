@@ -5,8 +5,8 @@ def generate_launch_description():
     return LaunchDescription([
         Node(
             package='pc2image',
-            executable='launch_projector',
-            name='launch_projector',
+            executable='pointcloud_projector',
+            name='pointcloud_projector',
             output='screen',
             parameters=[
                 # Add any parameters here if needed
